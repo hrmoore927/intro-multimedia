@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Celtic Hand";
+    src: url(../assets/fonts/CELTICHD.ttf);
+}
+
+@font-face {
+    font-family: "Alegreya Sans";
+    src: url(../assets/fonts/AlegreyaSans-Regular.ttf);
+}
+
+h1, h3 {
+    font-family: "Celtic Hand", "Arial", sans-serif;
+    color: #008100;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h2, p {
+    font-family: "Alegreya Sans", "Arial", sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    color: #626262;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    width: 20%;
+}

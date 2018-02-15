@@ -23,20 +23,45 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12-md">
+            <div class="col-12-md" id="firstGallery">
                 <h3>Photo Galleries</h3>
                 <p>First Photo Gallery</p>
                 <img src="assets/images/map.png" alt="map of Ireland">
                 <img src="assets/images/cottages.jpeg" alt="row of cottages">
                 <img src="assets/images/cycling.jpg" alt="mountains">
                 <img src="assets/images/flag.jpeg" alt="flag of Ireland">
-                <p>Second Photo Gallery</p>
-                <img src="assets/images/images.jpeg" alt="stonehenge">
-                <img src="assets/images/ioi_waw_us.jpg" alt="cliffs with ocean">
-                <img src="assets/images/ireland-01.jpg" alt="cliffs with castle">
-                <img src="assets/images/NI_BG_Carrick.jpg" alt="cliffs with bridge">
             </div>
         </div>
+    </div>
+    <div class="container" id="secondGallery">
+        <div class="row">
+            <div class="col-12-md">
+                <p>Second Photo Gallery</p>
+                <a id="gallery" href="#"></a>
+                <a class="lightbox" href="#stonehenge"><img src="assets/images/images.jpeg" alt="stonehenge"></a>
+                <div class="lightbox-target" id="stonehenge">
+                    <img src="assets/images/images.jpeg"/>
+                    <a class="lightbox-close" href="#gallery"></a>
+                </div>
+                <a class="lightbox" href="#cliffs"><img src="assets/images/ioi_waw_us.jpg" alt="cliffs with ocean"></a>
+                <div class="lightbox-target" id="cliffs">
+                    <img src="assets/images/ioi_waw_us.jpg"/>
+                    <a class="lightbox-close" href="#gallery"></a>
+                </div>
+                <a class="lightbox" href="#castle"><img src="assets/images/ireland-01.jpg" alt="cliffs with castle"></a>
+                <div class="lightbox-target" id="castle">
+                    <img src="assets/images/ireland-01.jpg"/>
+                    <a class="lightbox-close" href="#gallery"></a>
+                </div>
+                <a class="lightbox" href="#bridge"><img src="assets/images/NI_BG_Carrick.jpg" alt="cliffs with bridge"></a>
+                <div class="lightbox-target" id="bridge">
+                    <img src="assets/images/NI_BG_Carrick.jpg"/>
+                    <a class="lightbox-close" href="#gallery"></a>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-12-md">
                 <h3>Podcast</h3>
